@@ -10,5 +10,9 @@
     "ts-loader": "^3.0.3",
     "typescript": "^2.2.2",
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-webpack": "^3.0.2"
   }
 }

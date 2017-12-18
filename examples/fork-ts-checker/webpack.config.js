@@ -23,5 +23,9 @@ module.exports = {
     },
     plugins: [
         new ForkTsCheckerWebpackPlugin()
-    ]
+    ],
+    watch: true,
+    watchOptions: {
+      ignored: /node_modules/
+    }
 };
